@@ -1,0 +1,15 @@
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Auctions.Data.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Auctions.Data.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Auctions.Domain.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Common.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Auctions.Domain.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\MobileWebApi.Common.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\obj\Debug\MobileWebApi.Auctions.Data.csprojResolveAssemblyReference.cache
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\obj\Debug\MobileWebApi.Auctions.Data.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\obj\Debug\MobileWebApi.Auctions.Data.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\CYP.RedisService.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\ServiceStack.Interfaces.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\ServiceStack.Redis.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\ServiceStack.Text.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auctions.Data\bin\Debug\ServiceStack.Common.dll

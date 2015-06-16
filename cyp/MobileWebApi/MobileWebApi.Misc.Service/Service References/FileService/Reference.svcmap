@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="be32cbcc-0c90-4c72-96d5-109b25a62450" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://114.112.88.211:8091/FileService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileService.xsd" MetadataType="Schema" ID="e341a628-01db-4fc3-b726-928e598f9ec0" SourceId="1" SourceUrl="http://114.112.88.211:8091/FileService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FileService.wsdl" MetadataType="Wsdl" ID="565b23db-ece9-4589-b16c-eab46c4de695" SourceId="1" SourceUrl="http://114.112.88.211:8091/FileService.svc?wsdl" />
+    <MetadataFile FileName="FileService.disco" MetadataType="Disco" ID="6479ee21-e839-45b2-9a9d-a6383ca4fb4d" SourceId="1" SourceUrl="http://114.112.88.211:8091/FileService.svc?disco" />
+    <MetadataFile FileName="FileService1.xsd" MetadataType="Schema" ID="642f897b-0832-453f-afac-461c6a8b5998" SourceId="1" SourceUrl="http://114.112.88.211:8091/FileService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FileService2.xsd" MetadataType="Schema" ID="9af04a71-e714-4e98-af98-4576b5ac5b7a" SourceId="1" SourceUrl="http://114.112.88.211:8091/FileService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

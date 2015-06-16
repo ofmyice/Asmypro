@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NewbieTask" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.100.3:10028/NewbieTask.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.100.3:10028/NewbieTask.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.100.3:10028/NewbieTask.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NewbieTask.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INewbieTask_GetAllTaskList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTaskList" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_GetAllTaskList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllTaskListResponse" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_AddTaskComplete_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTaskComplete" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_AddTaskComplete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTaskCompleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_TaskComplete_InputMessage">
+    <wsdl:part name="parameters" element="tns:TaskComplete" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_TaskComplete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TaskCompleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_GetUserInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_GetUserInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_GetUserInfoByTaskType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfoByTaskType" />
+  </wsdl:message>
+  <wsdl:message name="INewbieTask_GetUserInfoByTaskType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserInfoByTaskTypeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INewbieTask">
+    <wsdl:operation name="GetAllTaskList">
+      <wsdl:input wsaw:Action="http://tempuri.org/INewbieTask/GetAllTaskList" message="tns:INewbieTask_GetAllTaskList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INewbieTask/GetAllTaskListResponse" message="tns:INewbieTask_GetAllTaskList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTaskComplete">
+      <wsdl:input wsaw:Action="http://tempuri.org/INewbieTask/AddTaskComplete" message="tns:INewbieTask_AddTaskComplete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INewbieTask/AddTaskCompleteResponse" message="tns:INewbieTask_AddTaskComplete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TaskComplete">
+      <wsdl:input wsaw:Action="http://tempuri.org/INewbieTask/TaskComplete" message="tns:INewbieTask_TaskComplete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INewbieTask/TaskCompleteResponse" message="tns:INewbieTask_TaskComplete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/INewbieTask/GetUserInfo" message="tns:INewbieTask_GetUserInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INewbieTask/GetUserInfoResponse" message="tns:INewbieTask_GetUserInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoByTaskType">
+      <wsdl:input wsaw:Action="http://tempuri.org/INewbieTask/GetUserInfoByTaskType" message="tns:INewbieTask_GetUserInfoByTaskType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INewbieTask/GetUserInfoByTaskTypeResponse" message="tns:INewbieTask_GetUserInfoByTaskType_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_INewbieTask" type="tns:INewbieTask">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllTaskList">
+      <soap:operation soapAction="http://tempuri.org/INewbieTask/GetAllTaskList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTaskComplete">
+      <soap:operation soapAction="http://tempuri.org/INewbieTask/AddTaskComplete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TaskComplete">
+      <soap:operation soapAction="http://tempuri.org/INewbieTask/TaskComplete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfo">
+      <soap:operation soapAction="http://tempuri.org/INewbieTask/GetUserInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserInfoByTaskType">
+      <soap:operation soapAction="http://tempuri.org/INewbieTask/GetUserInfoByTaskType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NewbieTask">
+    <wsdl:port name="BasicHttpBinding_INewbieTask" binding="tns:BasicHttpBinding_INewbieTask">
+      <soap:address location="http://192.168.100.3:10028/NewbieTask.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="UserAccountModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BlanceMoney" type="xs:int" />
+      <xs:element minOccurs="0" name="FreezeCarNum" type="xs:int" />
+      <xs:element minOccurs="0" name="FreezeMoney" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalMoney" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserAccountModel" nillable="true" type="tns:UserAccountModel" />
+  <xs:complexType name="BaseListModelOfEarnestModel_S7WUFefR">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="BaseListModelOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="EarnestModel" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataList" nillable="true" type="tns:ArrayOfEarnestModel" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseListModelOfEarnestModel_S7WUFefR" nillable="true" type="tns:BaseListModelOfEarnestModel_S7WUFefR" />
+  <xs:complexType name="ArrayOfEarnestModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EarnestModel" nillable="true" type="tns:EarnestModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEarnestModel" nillable="true" type="tns:ArrayOfEarnestModel" />
+  <xs:complexType name="EarnestModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:int" />
+      <xs:element minOccurs="0" name="TransContent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransNum" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="TransWay" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EarnestModel" nillable="true" type="tns:EarnestModel" />
+  <xs:complexType name="VoucherModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ContributeVoucher" type="xs:int" />
+      <xs:element minOccurs="0" name="GenContributeVoucher" type="xs:int" />
+      <xs:element minOccurs="0" name="GeneralVoucher" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VoucherModel" nillable="true" type="tns:VoucherModel" />
+  <xs:complexType name="BaseListModelOfVoucherListModel_S7WUFefR">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="BaseListModelOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="VoucherListModel" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataList" nillable="true" type="tns:ArrayOfVoucherListModel" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseListModelOfVoucherListModel_S7WUFefR" nillable="true" type="tns:BaseListModelOfVoucherListModel_S7WUFefR" />
+  <xs:complexType name="ArrayOfVoucherListModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VoucherListModel" nillable="true" type="tns:VoucherListModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVoucherListModel" nillable="true" type="tns:ArrayOfVoucherListModel" />
+  <xs:complexType name="VoucherListModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:int" />
+      <xs:element minOccurs="0" name="Status" type="xs:int" />
+      <xs:element minOccurs="0" name="TransContent" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransNum" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VoucherListModel" nillable="true" type="tns:VoucherListModel" />
+  <xs:complexType name="BusSxtModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IfSXT" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LeftLoan" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalLoan" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BusSxtModel" nillable="true" type="tns:BusSxtModel" />
+  <xs:complexType name="BaseListModelOfSxtListModel_S7WUFefR">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="BaseListModelOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="SxtListModel" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataList" nillable="true" type="tns:ArrayOfSxtListModel" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseListModelOfSxtListModel_S7WUFefR" nillable="true" type="tns:BaseListModelOfSxtListModel_S7WUFefR" />
+  <xs:complexType name="ArrayOfSxtListModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SxtListModel" nillable="true" type="tns:SxtListModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSxtListModel" nillable="true" type="tns:ArrayOfSxtListModel" />
+  <xs:complexType name="SxtListModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AucId" type="xs:int" />
+      <xs:element minOccurs="0" name="CarFirstImg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CarId" type="xs:int" />
+      <xs:element minOccurs="0" name="CarRegDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmissionStandard" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExpireTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FanLi" type="xs:int" />
+      <xs:element minOccurs="0" name="FinalOffer" type="xs:int" />
+      <xs:element minOccurs="0" name="IfExceed" type="xs:int" />
+      <xs:element minOccurs="0" name="IsLongBid" type="xs:int" />
+      <xs:element minOccurs="0" name="LastDate" type="xs:int" />
+      <xs:element minOccurs="0" name="Mileage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Model" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NlTag" type="xs:int" />
+      <xs:element minOccurs="0" name="OrderId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrderStatus" type="xs:int" />
+      <xs:element minOccurs="0" name="OrgName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Rank" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RealVoucher" type="xs:int" />
+      <xs:element minOccurs="0" name="SellerConfirmTime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TicketWinPrice" type="xs:int" />
+      <xs:element minOccurs="0" name="TradeCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Voucher" type="xs:int" />
+      <xs:element minOccurs="0" name="WayTag" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SxtListModel" nillable="true" type="tns:SxtListModel" />
+  <xs:complexType name="HeadImgModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="HeadImg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="HeadImgUrl" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HeadImgModel" nillable="true" type="tns:HeadImgModel" />
+  <xs:complexType name="ArrayOfSmsTypeModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SmsTypeModel" nillable="true" type="tns:SmsTypeModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSmsTypeModel" nillable="true" type="tns:ArrayOfSmsTypeModel" />
+  <xs:complexType name="SmsTypeModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsSend" type="xs:int" />
+      <xs:element minOccurs="0" name="SmsType" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SmsTypeModel" nillable="true" type="tns:SmsTypeModel" />
+</xs:schema>

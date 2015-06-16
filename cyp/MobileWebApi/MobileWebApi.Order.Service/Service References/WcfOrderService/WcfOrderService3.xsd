@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+  <xs:element name="GetDealCarList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userId" type="xs:int" />
+        <xs:element minOccurs="0" name="orderStatus" type="xs:int" />
+        <xs:element minOccurs="0" name="isThisYear" type="xs:int" />
+        <xs:element minOccurs="0" name="model" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="islongbid" type="xs:int" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDealCarListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetDealCarListResult" nillable="true" type="q1:OrderModel" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCarPriceSearchList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="businessId" type="xs:int" />
+        <xs:element minOccurs="0" name="buyerLevel" type="xs:int" />
+        <xs:element minOccurs="0" name="orid" type="xs:int" />
+        <xs:element minOccurs="0" name="countryId" type="xs:int" />
+        <xs:element minOccurs="0" name="brand" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mf" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="series" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pzgear" type="xs:int" />
+        <xs:element minOccurs="0" name="topNum" type="xs:int" />
+        <xs:element minOccurs="0" name="isSeries" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="emissionStandard" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCarPriceSearchListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetCarPriceSearchListResult" nillable="true" type="q2:SearchModel" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTradeoffMsg">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="orderId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="aucId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTradeoffMsgResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTradeoffMsgResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUnConfirmCarList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="businessId" type="xs:int" />
+        <xs:element minOccurs="0" name="aucRootTag" type="xs:int" />
+        <xs:element minOccurs="0" name="searchTxt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUnConfirmCarListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetUnConfirmCarListResult" nillable="true" type="q3:BaseListModelOfWcfCarOrder_S7WUFefR" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderCarList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="businessId" type="xs:int" />
+        <xs:element minOccurs="0" name="rootTag" type="xs:int" />
+        <xs:element minOccurs="0" name="orderStatus" type="xs:int" />
+        <xs:element minOccurs="0" name="markTime" type="xs:int" />
+        <xs:element minOccurs="0" name="searchTxt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderCarListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetOrderCarListResult" nillable="true" type="q4:BaseListModelOfWcfCarOrder_S7WUFefR" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBidHistoryList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="businessId" type="xs:int" />
+        <xs:element minOccurs="0" name="aucRootTag" type="xs:int" />
+        <xs:element minOccurs="0" name="markTime" type="xs:int" />
+        <xs:element minOccurs="0" name="caseType" type="xs:int" />
+        <xs:element minOccurs="0" name="searchTxt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pageSize" type="xs:int" />
+        <xs:element minOccurs="0" name="pageIndex" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBidHistoryListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetBidHistoryListResult" nillable="true" type="q5:BaseListModelOfWcfCarOrder_S7WUFefR" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,46 @@
+[2015-05-18 10:19:00:379] BusinessId：43052
+ Exceptions：System.InvalidOperationException: 在 ServiceModel 客户端配置部分中，找不到引用协定“WcfTaskService.INewbieTask”的默认终结点元素。这可能是因为未找到应用程序的配置文件，或者是因为客户端元素中找不到与此协定匹配的终结点元素。
+   在 System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   在 System.ServiceModel.ChannelFactory.ApplyConfiguration(String configurationName, Configuration configuration)
+   在 System.ServiceModel.ChannelFactory.ApplyConfiguration(String configurationName)
+   在 System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   在 System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   在 System.ServiceModel.ConfigurationEndpointTrait`1.CreateSimplexFactory()
+   在 System.ServiceModel.ConfigurationEndpointTrait`1.CreateChannelFactory()
+   在 System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   在 System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   在 System.ServiceModel.ClientBase`1..ctor()
+   在 MobileWebApi.Misc.Service.WcfTaskService.NewbieTaskClient..ctor() 位置 e:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Misc.Service\Service References\WcfTaskService\Reference.cs:行号 344
+   在 MobileWebApi.Misc.Service.Impl.NewbieTaskService.GetTaskCountInfo(String businessid, String tasktype) 位置 e:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Misc.Service\Impl\NewbieTaskService.cs:行号 24
+   在 MobileWebApi.Controllers.TaskController.GetTaskCountInfo() 位置 e:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi\Controllers\TaskController.cs:行号 31
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.InvokeSynchronousActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeActionMethodWithFilters>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   在 System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)。
+ Params：http://localhost:21255/task/GetTaskCountInfo?businessid=43052 
+[2015-05-18 16:47:49:446] BusinessId：63398
+ Exceptions：System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]: 无法绑定由多个部分组成的标识符 "v.VOUCHER"。 (错误详细信息等于 很可能由 IncludeExceptionDetailInFaults=true 创建的 ExceptionDetail，其值为:
+System.Data.SqlClient.SqlException: 无法绑定由多个部分组成的标识符 "v.VOUCHER"。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlC...)。。
+ Params：http://localhost:21255/Order/GetDealCarListForPad/?imei=ab7af25f-5494-4b8c-9225-a58076919da6&pageSize=30&onlineId=932a793d-e367-4702-b2bb-48417964d8d2&TimeSpan=&pageIndex=1&version=V2.1.0&Status=30&clienttype=3&AucType=0&businessId=DE3E4100CFC8C1F4&mobile=5 

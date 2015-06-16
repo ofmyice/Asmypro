@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b5e5a45d-d48f-4dd1-b079-5ef227f8d4af" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://test2.cheyipai.com/WCFService/WcfOrderService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfOrderService1.disco" MetadataType="Disco" ID="0e31a70f-a271-4f64-9f73-81d100c0c06d" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?disco" />
+    <MetadataFile FileName="WcfOrderService3.xsd" MetadataType="Schema" ID="d2d3c61a-ffbb-4672-95b3-2ce27f5a79c9" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?xsd=xsd0" />
+    <MetadataFile FileName="WcfOrderService1.wsdl" MetadataType="Wsdl" ID="d892dbe2-fcff-464e-9f3c-ea6548d5b0c4" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?wsdl" />
+    <MetadataFile FileName="WcfOrderService31.xsd" MetadataType="Schema" ID="69b1af5d-9c7b-4aa0-b452-9394a1f76aa7" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WcfOrderService32.xsd" MetadataType="Schema" ID="6beef8d7-8b62-44a7-97f4-c98b03a7c874" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfOrderService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

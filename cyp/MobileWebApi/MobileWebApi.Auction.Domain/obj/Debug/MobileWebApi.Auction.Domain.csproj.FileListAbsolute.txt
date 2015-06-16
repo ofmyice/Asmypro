@@ -1,0 +1,5 @@
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auction.Domain\bin\Debug\MobileWebApi.Auction.Domain.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auction.Domain\bin\Debug\MobileWebApi.Auction.Domain.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auction.Domain\obj\Debug\MobileWebApi.Auction.Domain.csprojResolveAssemblyReference.cache
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auction.Domain\obj\Debug\MobileWebApi.Auction.Domain.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Auction.Domain\obj\Debug\MobileWebApi.Auction.Domain.pdb

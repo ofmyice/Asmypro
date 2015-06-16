@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ShareModel">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseModelOfShareModel_S7WUFefR">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ShareModel" nillable="true" type="tns:ShareModel" />
+  <xs:complexType name="BaseModelOfShareModel_S7WUFefR">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="BaseModelOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ShareModel" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsSuccess" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Items" nillable="true" type="tns:ArrayOfShareModel" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseModelOfShareModel_S7WUFefR" nillable="true" type="tns:BaseModelOfShareModel_S7WUFefR" />
+  <xs:complexType name="ArrayOfShareModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ShareModel" nillable="true" type="tns:ShareModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfShareModel" nillable="true" type="tns:ArrayOfShareModel" />
+  <xs:complexType name="BaseListModelOfCarPositionModel_S7WUFefR">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="BaseListModelOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="CarPositionModel" Namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataList" nillable="true" type="tns:ArrayOfCarPositionModel" />
+      <xs:element minOccurs="0" name="TotalCount" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseListModelOfCarPositionModel_S7WUFefR" nillable="true" type="tns:BaseListModelOfCarPositionModel_S7WUFefR" />
+  <xs:complexType name="ArrayOfCarPositionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CarPositionModel" nillable="true" type="tns:CarPositionModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCarPositionModel" nillable="true" type="tns:ArrayOfCarPositionModel" />
+  <xs:complexType name="CarPositionModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Orid" type="xs:int" />
+      <xs:element minOccurs="0" name="PositionAddr" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PositionCode" type="xs:int" />
+      <xs:element minOccurs="0" name="PositionName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PositionTel" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ScreenName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrapezeX" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrapezeY" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CarPositionModel" nillable="true" type="tns:CarPositionModel" />
+  <xs:complexType name="MyCYPModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CompleteTrading" type="xs:int" />
+      <xs:element minOccurs="0" name="Money" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PhotoPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UnConfirmCar" type="xs:int" />
+      <xs:element minOccurs="0" name="UnPay" type="xs:int" />
+      <xs:element minOccurs="0" name="UnVehicle" type="xs:int" />
+      <xs:element minOccurs="0" name="Voucher" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MyCYPModel" nillable="true" type="tns:MyCYPModel" />
+</xs:schema>

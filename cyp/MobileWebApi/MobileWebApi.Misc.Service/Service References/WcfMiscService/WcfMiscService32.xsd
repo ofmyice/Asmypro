@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+  <xs:element name="LogShare">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="businesid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tradecode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pagefrom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="shareto" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LogShareResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="LogShareResult" nillable="true" type="q1:ShareModel" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCarPositionList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCarPositionListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetCarPositionListResult" nillable="true" type="q2:BaseListModelOfCarPositionModel_S7WUFefR" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMessage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="uid" type="xs:int" />
+        <xs:element minOccurs="0" name="message" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="msgType" type="xs:int" />
+        <xs:element minOccurs="0" name="contactWay" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMessageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMessageResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMyCYPInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="uId" type="xs:int" />
+        <xs:element minOccurs="0" name="tokenKey" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMyCYPInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" minOccurs="0" name="GetMyCYPInfoResult" nillable="true" type="q3:MyCYPModel" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHeadImg">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="headImg" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="uId" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateHeadImgResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateHeadImgResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

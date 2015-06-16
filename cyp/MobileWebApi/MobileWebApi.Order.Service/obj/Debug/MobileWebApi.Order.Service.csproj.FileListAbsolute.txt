@@ -1,0 +1,16 @@
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Order.Service.dll.config
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Order.Service.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Order.Service.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Common.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Order.Domian.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\Newtonsoft.Json.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Common.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\MobileWebApi.Order.Domian.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\obj\Debug\MobileWebApi.Order.Service.csprojResolveAssemblyReference.cache
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\obj\Debug\MobileWebApi.Order.Service.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\obj\Debug\MobileWebApi.Order.Service.pdb
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\CYP.RedisService.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\ServiceStack.Interfaces.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\ServiceStack.Redis.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\ServiceStack.Text.dll
+E:\商户端\商户端PC\2015移动WebApi\移动WebAPI-外网测试分支-内网分支\MobileWebApi\MobileWebApi.Order.Service\bin\Debug\ServiceStack.Common.dll

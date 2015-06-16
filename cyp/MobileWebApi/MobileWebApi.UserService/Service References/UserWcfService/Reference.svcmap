@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5cc53301-8dc1-481b-9046-50f1c8eddf0d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserSerWCF3.xsd" MetadataType="Schema" ID="62085efc-0ee2-444b-811b-31efd2d0892b" SourceId="1" SourceUrl="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserSerWCF4.xsd" MetadataType="Schema" ID="25445a86-345c-4bef-8aea-b06bf94758f2" SourceId="1" SourceUrl="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserSerWCF1.wsdl" MetadataType="Wsdl" ID="0bbcd49f-f6a5-4ede-b098-1a08c860e286" SourceId="1" SourceUrl="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?wsdl" />
+    <MetadataFile FileName="UserSerWCF5.xsd" MetadataType="Schema" ID="f3041d28-c81b-4498-8c12-7f7f396a6542" SourceId="1" SourceUrl="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserSerWCF1.disco" MetadataType="Disco" ID="bc0fbc2c-f1b6-417b-b03d-abf8694365d4" SourceId="1" SourceUrl="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

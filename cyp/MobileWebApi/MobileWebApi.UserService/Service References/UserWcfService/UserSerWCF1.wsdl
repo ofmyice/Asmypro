@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="UserSerWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/CYP2014.Shd.WCF.Service.Models" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IUserSerWCF_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoWork" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_AddUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddUser" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_AddUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_ResetPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResetPassword" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_ResetPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResetPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_ModifyPwd_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyPwd" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_ModifyPwd_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyPwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_IsExistsUserName_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsExistsUserName" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_IsExistsUserName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsExistsUserNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetEarnest_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarnest" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetEarnest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarnestResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetEarnestLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarnestLog" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetEarnestLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEarnestLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetVoucherInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherInfo" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetVoucherInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetVoucherList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherList" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetVoucherList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVoucherListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetUserSxtInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSxtInfo" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetUserSxtInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserSxtInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetSxtList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSxtList" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetSxtList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSxtListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetHeadImgInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadImgInfo" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetHeadImgInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHeadImgInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetSmsSettingInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSmsSettingInfo" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_GetSmsSettingInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSmsSettingInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_SaveSmsSetting_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSmsSetting" />
+  </wsdl:message>
+  <wsdl:message name="IUserSerWCF_SaveSmsSetting_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveSmsSettingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUserSerWCF">
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/DoWork" message="tns:IUserSerWCF_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/DoWorkResponse" message="tns:IUserSerWCF_DoWork_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/AddUser" message="tns:IUserSerWCF_AddUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/AddUserResponse" message="tns:IUserSerWCF_AddUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/ResetPassword" message="tns:IUserSerWCF_ResetPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/ResetPasswordResponse" message="tns:IUserSerWCF_ResetPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPwd">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/ModifyPwd" message="tns:IUserSerWCF_ModifyPwd_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/ModifyPwdResponse" message="tns:IUserSerWCF_ModifyPwd_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsExistsUserName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/IsExistsUserName" message="tns:IUserSerWCF_IsExistsUserName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/IsExistsUserNameResponse" message="tns:IUserSerWCF_IsExistsUserName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEarnest">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetEarnest" message="tns:IUserSerWCF_GetEarnest_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetEarnestResponse" message="tns:IUserSerWCF_GetEarnest_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEarnestLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetEarnestLog" message="tns:IUserSerWCF_GetEarnestLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetEarnestLogResponse" message="tns:IUserSerWCF_GetEarnestLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetVoucherInfo" message="tns:IUserSerWCF_GetVoucherInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetVoucherInfoResponse" message="tns:IUserSerWCF_GetVoucherInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetVoucherList" message="tns:IUserSerWCF_GetVoucherList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetVoucherListResponse" message="tns:IUserSerWCF_GetVoucherList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSxtInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetUserSxtInfo" message="tns:IUserSerWCF_GetUserSxtInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetUserSxtInfoResponse" message="tns:IUserSerWCF_GetUserSxtInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSxtList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetSxtList" message="tns:IUserSerWCF_GetSxtList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetSxtListResponse" message="tns:IUserSerWCF_GetSxtList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadImgInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetHeadImgInfo" message="tns:IUserSerWCF_GetHeadImgInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetHeadImgInfoResponse" message="tns:IUserSerWCF_GetHeadImgInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsSettingInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/GetSmsSettingInfo" message="tns:IUserSerWCF_GetSmsSettingInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/GetSmsSettingInfoResponse" message="tns:IUserSerWCF_GetSmsSettingInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveSmsSetting">
+      <wsdl:input wsaw:Action="http://tempuri.org/IUserSerWCF/SaveSmsSetting" message="tns:IUserSerWCF_SaveSmsSetting_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IUserSerWCF/SaveSmsSettingResponse" message="tns:IUserSerWCF_SaveSmsSetting_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IUserSerWCF" type="tns:IUserSerWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoWork">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/DoWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddUser">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/AddUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResetPassword">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/ResetPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPwd">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/ModifyPwd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsExistsUserName">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/IsExistsUserName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEarnest">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetEarnest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEarnestLog">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetEarnestLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherInfo">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetVoucherInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVoucherList">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetVoucherList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserSxtInfo">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetUserSxtInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSxtList">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetSxtList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeadImgInfo">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetHeadImgInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSmsSettingInfo">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/GetSmsSettingInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveSmsSetting">
+      <soap:operation soapAction="http://tempuri.org/IUserSerWCF/SaveSmsSetting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserSerWCF">
+    <wsdl:port name="BasicHttpBinding_IUserSerWCF" binding="tns:BasicHttpBinding_IUserSerWCF">
+      <soap:address location="http://shd2014.cheyipai.com/WCFService/UserSerWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

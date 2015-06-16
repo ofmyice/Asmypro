@@ -1,0 +1,169 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi", "MobileWebApi\MobileWebApi.csproj", "{0A9F3F51-64C5-4C94-9C25-360E03908E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Common", "MobileWebApi.Common\MobileWebApi.Common.csproj", "{F1B7EE37-DC17-4F84-A975-B2D9691E741F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{93F304E2-A136-486E-BD63-78563EB4B1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{10AE853C-76F1-4562-B96F-53586D456662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{2355212E-6B7A-4573-952F-EFF7B4A002D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auctions", "Auctions", "{8C6B0D41-A7DA-4EE7-9C71-891C00AC1DCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.User.Service", "MobileWebApi.UserService\MobileWebApi.User.Service.csproj", "{5E5483BF-792C-4305-B7C7-028AD0233889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.User.Domain", "MobileWebApi.User.Domain\MobileWebApi.User.Domain.csproj", "{23BF16A9-F74B-446E-B541-E0792FA03110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Misc.Service", "MobileWebApi.Misc.Service\MobileWebApi.Misc.Service.csproj", "{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Misc.Domain", "MobileWebApi.Misc.Domain\MobileWebApi.Misc.Domain.csproj", "{E2EC9570-EA33-4983-8730-CAB7746D7E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Order.Service", "MobileWebApi.Order.Service\MobileWebApi.Order.Service.csproj", "{DBC05E80-C368-4051-8EB2-39BFB892EB46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Order.Domian", "MobileWebApi.Order.Domian\MobileWebApi.Order.Domian.csproj", "{40FC0367-E083-4E6E-9FE8-FEFDEDB43980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Auctions.Domain", "MobileWebApi.Auctions.Domain\MobileWebApi.Auctions.Domain.csproj", "{E87FA009-8760-46AE-AF66-265252ADC14B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Auctions.Data", "MobileWebApi.Auctions.Data\MobileWebApi.Auctions.Data.csproj", "{73D12573-A328-4626-A5D0-EAC6268370C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Auctions.Service", "MobileWebApi.Auctions.Service\MobileWebApi.Auctions.Service.csproj", "{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.User.Data", "MobileWebApi.User.Data\MobileWebApi.User.Data.csproj", "{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileWebApi.Misc.Data", "MobileWebApi.Misc.Data\MobileWebApi.Misc.Data.csproj", "{7B00EEF2-4665-46FC-AB96-658CDF82DCE2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.100.9:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MobileWebApi.Common\\MobileWebApi.Common.csproj
+		SccProjectName1 = MobileWebApi.Common
+		SccLocalPath1 = MobileWebApi.Common
+		SccProjectUniqueName2 = MobileWebApi\\MobileWebApi.csproj
+		SccProjectName2 = MobileWebApi
+		SccLocalPath2 = MobileWebApi
+		SccProjectUniqueName3 = MobileWebApi.UserService\\MobileWebApi.User.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = MobileWebApi.sln
+		SccProjectName3 = MobileWebApi.UserService
+		SccLocalPath3 = MobileWebApi.UserService
+		SccProjectUniqueName4 = MobileWebApi.User.Domain\\MobileWebApi.User.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = MobileWebApi.sln
+		SccProjectName4 = MobileWebApi.User.Domain
+		SccLocalPath4 = MobileWebApi.User.Domain
+		SccProjectUniqueName5 = MobileWebApi.Misc.Service\\MobileWebApi.Misc.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = MobileWebApi.sln
+		SccProjectName5 = MobileWebApi.Misc.Service
+		SccLocalPath5 = MobileWebApi.Misc.Service
+		SccProjectUniqueName6 = MobileWebApi.Misc.Domain\\MobileWebApi.Misc.Domain.csproj
+		SccProjectTopLevelParentUniqueName6 = MobileWebApi.sln
+		SccProjectName6 = MobileWebApi.Misc.Domain
+		SccLocalPath6 = MobileWebApi.Misc.Domain
+		SccProjectUniqueName7 = MobileWebApi.Order.Service\\MobileWebApi.Order.Service.csproj
+		SccProjectTopLevelParentUniqueName7 = MobileWebApi.sln
+		SccProjectName7 = MobileWebApi.Order.Service
+		SccLocalPath7 = MobileWebApi.Order.Service
+		SccProjectUniqueName8 = MobileWebApi.Order.Domian\\MobileWebApi.Order.Domian.csproj
+		SccProjectTopLevelParentUniqueName8 = MobileWebApi.sln
+		SccProjectName8 = MobileWebApi.Order.Domian
+		SccLocalPath8 = MobileWebApi.Order.Domian
+		SccProjectUniqueName9 = MobileWebApi.Auctions.Domain\\MobileWebApi.Auctions.Domain.csproj
+		SccProjectTopLevelParentUniqueName9 = MobileWebApi.sln
+		SccProjectName9 = MobileWebApi.Auctions.Domain
+		SccLocalPath9 = MobileWebApi.Auctions.Domain
+		SccProjectUniqueName10 = MobileWebApi.Auctions.Data\\MobileWebApi.Auctions.Data.csproj
+		SccProjectTopLevelParentUniqueName10 = MobileWebApi.sln
+		SccProjectName10 = MobileWebApi.Auctions.Data
+		SccLocalPath10 = MobileWebApi.Auctions.Data
+		SccProjectUniqueName11 = MobileWebApi.Auctions.Service\\MobileWebApi.Auctions.Service.csproj
+		SccProjectTopLevelParentUniqueName11 = MobileWebApi.sln
+		SccProjectName11 = MobileWebApi.Auctions.Service
+		SccLocalPath11 = MobileWebApi.Auctions.Service
+		SccProjectUniqueName12 = MobileWebApi.User.Data\\MobileWebApi.User.Data.csproj
+		SccProjectTopLevelParentUniqueName12 = MobileWebApi.sln
+		SccProjectName12 = MobileWebApi.User.Data
+		SccLocalPath12 = MobileWebApi.User.Data
+		SccProjectUniqueName13 = MobileWebApi.Misc.Data\\MobileWebApi.Misc.Data.csproj
+		SccProjectTopLevelParentUniqueName13 = MobileWebApi.sln
+		SccProjectName13 = MobileWebApi.Misc.Data
+		SccLocalPath13 = MobileWebApi.Misc.Data
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A9F3F51-64C5-4C94-9C25-360E03908E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9F3F51-64C5-4C94-9C25-360E03908E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9F3F51-64C5-4C94-9C25-360E03908E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9F3F51-64C5-4C94-9C25-360E03908E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B7EE37-DC17-4F84-A975-B2D9691E741F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B7EE37-DC17-4F84-A975-B2D9691E741F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B7EE37-DC17-4F84-A975-B2D9691E741F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B7EE37-DC17-4F84-A975-B2D9691E741F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5483BF-792C-4305-B7C7-028AD0233889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5483BF-792C-4305-B7C7-028AD0233889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5483BF-792C-4305-B7C7-028AD0233889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5483BF-792C-4305-B7C7-028AD0233889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BF16A9-F74B-446E-B541-E0792FA03110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BF16A9-F74B-446E-B541-E0792FA03110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BF16A9-F74B-446E-B541-E0792FA03110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BF16A9-F74B-446E-B541-E0792FA03110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EC9570-EA33-4983-8730-CAB7746D7E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EC9570-EA33-4983-8730-CAB7746D7E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EC9570-EA33-4983-8730-CAB7746D7E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EC9570-EA33-4983-8730-CAB7746D7E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC05E80-C368-4051-8EB2-39BFB892EB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC05E80-C368-4051-8EB2-39BFB892EB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC05E80-C368-4051-8EB2-39BFB892EB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC05E80-C368-4051-8EB2-39BFB892EB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40FC0367-E083-4E6E-9FE8-FEFDEDB43980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FC0367-E083-4E6E-9FE8-FEFDEDB43980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FC0367-E083-4E6E-9FE8-FEFDEDB43980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FC0367-E083-4E6E-9FE8-FEFDEDB43980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E87FA009-8760-46AE-AF66-265252ADC14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E87FA009-8760-46AE-AF66-265252ADC14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E87FA009-8760-46AE-AF66-265252ADC14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E87FA009-8760-46AE-AF66-265252ADC14B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D12573-A328-4626-A5D0-EAC6268370C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D12573-A328-4626-A5D0-EAC6268370C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D12573-A328-4626-A5D0-EAC6268370C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D12573-A328-4626-A5D0-EAC6268370C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B00EEF2-4665-46FC-AB96-658CDF82DCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B00EEF2-4665-46FC-AB96-658CDF82DCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B00EEF2-4665-46FC-AB96-658CDF82DCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B00EEF2-4665-46FC-AB96-658CDF82DCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A1A1D46-A95A-4F5A-B81B-3FD364E65BB6} = {93F304E2-A136-486E-BD63-78563EB4B1D7}
+		{E2EC9570-EA33-4983-8730-CAB7746D7E38} = {93F304E2-A136-486E-BD63-78563EB4B1D7}
+		{7B00EEF2-4665-46FC-AB96-658CDF82DCE2} = {93F304E2-A136-486E-BD63-78563EB4B1D7}
+		{5E5483BF-792C-4305-B7C7-028AD0233889} = {10AE853C-76F1-4562-B96F-53586D456662}
+		{23BF16A9-F74B-446E-B541-E0792FA03110} = {10AE853C-76F1-4562-B96F-53586D456662}
+		{40C2D3C9-5C41-405A-BDD2-22E62DD3AF21} = {10AE853C-76F1-4562-B96F-53586D456662}
+		{DBC05E80-C368-4051-8EB2-39BFB892EB46} = {2355212E-6B7A-4573-952F-EFF7B4A002D4}
+		{40FC0367-E083-4E6E-9FE8-FEFDEDB43980} = {2355212E-6B7A-4573-952F-EFF7B4A002D4}
+		{E87FA009-8760-46AE-AF66-265252ADC14B} = {8C6B0D41-A7DA-4EE7-9C71-891C00AC1DCB}
+		{73D12573-A328-4626-A5D0-EAC6268370C0} = {8C6B0D41-A7DA-4EE7-9C71-891C00AC1DCB}
+		{9FD18C11-CAC3-4B6C-B6B3-0C84602E4641} = {8C6B0D41-A7DA-4EE7-9C71-891C00AC1DCB}
+	EndGlobalSection
+EndGlobal

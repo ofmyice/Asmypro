@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="36945656-7589-420d-9d0a-cf942f7f5053" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://test2.cheyipai.com/WCFService/WcfMiscService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfMiscService1.wsdl" MetadataType="Wsdl" ID="693bd7cc-869c-4044-aae1-6b79a701170a" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?wsdl" />
+    <MetadataFile FileName="WcfMiscService3.xsd" MetadataType="Schema" ID="dd8a9197-aa0b-4609-a3e0-fcda3e888d28" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WcfMiscService31.xsd" MetadataType="Schema" ID="0a9664dc-d5c8-4f3d-9690-37ae01ff96a3" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?xsd=xsd2" />
+    <MetadataFile FileName="WcfMiscService1.disco" MetadataType="Disco" ID="85074cfa-761c-488b-b737-9599f0127bc8" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?disco" />
+    <MetadataFile FileName="WcfMiscService32.xsd" MetadataType="Schema" ID="03d82f53-a1af-45b7-bdbc-d87c16617882" SourceId="1" SourceUrl="http://test2.cheyipai.com/WCFService/WcfMiscService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
